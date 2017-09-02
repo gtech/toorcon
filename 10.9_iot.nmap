@@ -1,0 +1,126 @@
+# Nmap 7.40 scan initiated Sat Sep  2 14:31:45 2017 as: nmap -vv -T4 -A -p- -oA 10.9_iot 192.168.10.9
+Nmap scan report for AVTechDVR.lan (192.168.10.9)
+Host is up, received arp-response (0.0013s latency).
+Scanned at 2017-09-02 14:31:46 PDT for 102s
+Not shown: 65532 closed ports
+Reason: 65532 resets
+PORT    STATE SERVICE REASON         VERSION
+80/tcp  open  http    syn-ack ttl 64 Avtech AVN801 network camera 1.0 (UPnP 1.0)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Linux/2.x UPnP/1.0 Avtech/1.0
+|_http-title: ::: Login :::
+554/tcp open  http    syn-ack ttl 64 Avtech AVN801 network camera 1.0 (UPnP 1.0)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Linux/2.x UPnP/1.0 Avtech/1.0
+|_http-title: ::: Login :::
+|_rtsp-methods: DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, SET_PARAMETER, GET_PARAMETER
+988/tcp open  unknown syn-ack ttl 64
+| fingerprint-strings: 
+|   GenericLines: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html
+|     Connection: close
+|     Date: Sat, 02 Sep 2017 16:32:07 GMT
+|     Content-Length: 94
+|     <HTML><HEAD>
+|     <TITLE>400 Bad Request</TITLE>
+|     </HEAD><BODY>
+|     <H1>Bad Request</H1>
+|     </BODY></HTML>
+|   HTTPOptions: 
+|     HTTP/1.1 501 Not Implemented
+|     Content-Type: text/html
+|     Connection: close
+|     Date: Sat, 02 Sep 2017 16:32:14 GMT
+|     Content-Length: 102
+|     <HTML><HEAD>
+|     <TITLE>501 Not Implemented</TITLE>
+|     </HEAD><BODY>
+|     <H1>Not Implemented</H1>
+|     </BODY></HTML>
+|   Help, Kerberos, SSLSessionReq, TLSSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html
+|     Connection: close
+|     Date: Sat, 02 Sep 2017 16:32:29 GMT
+|     Content-Length: 94
+|     <HTML><HEAD>
+|     <TITLE>400 Bad Request</TITLE>
+|     </HEAD><BODY>
+|     <H1>Bad Request</H1>
+|     </BODY></HTML>
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html
+|     Connection: close
+|     Date: Sat, 02 Sep 2017 16:32:14 GMT
+|     Content-Length: 94
+|     <HTML><HEAD>
+|     <TITLE>400 Bad Request</TITLE>
+|     </HEAD><BODY>
+|     <H1>Bad Request</H1>
+|_    </BODY></HTML>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port988-TCP:V=7.40%I=7%D=9/2%Time=59AB234D%P=x86_64-pc-linux-gnu%r(Gene
+SF:ricLines,DD,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20tex
+SF:t/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2
+SF:016:32:07\x20GMT\r\nContent-Length:\x2094\r\n<HTML><HEAD>\n<TITLE>400\x
+SF:20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x20Request</H1>\n</BOD
+SF:Y></HTML>\n")%r(HTTPOptions,EC,"HTTP/1\.1\x20501\x20Not\x20Implemented\
+SF:r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nDate:\x20Sat,\
+SF:x2002\x20Sep\x202017\x2016:32:14\x20GMT\r\nContent-Length:\x20102\r\n\r
+SF:\n<HTML><HEAD>\n<TITLE>501\x20Not\x20Implemented</TITLE>\n</HEAD><BODY>
+SF:\n<H1>Not\x20Implemented</H1>\n</BODY></HTML>\n")%r(RTSPRequest,DF,"HTT
+SF:P/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nConnec
+SF:tion:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:14\x20GMT
+SF:\r\nContent-Length:\x2094\r\n\r\n<HTML><HEAD>\n<TITLE>400\x20Bad\x20Req
+SF:uest</TITLE>\n</HEAD><BODY>\n<H1>Bad\x20Request</H1>\n</BODY></HTML>\n"
+SF:)%r(Help,DD,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20tex
+SF:t/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2
+SF:016:32:29\x20GMT\r\nContent-Length:\x2094\r\n<HTML><HEAD>\n<TITLE>400\x
+SF:20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x20Request</H1>\n</BOD
+SF:Y></HTML>\n")%r(SSLSessionReq,DD,"HTTP/1\.1\x20400\x20Bad\x20Request\r\
+SF:nContent-Type:\x20text/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2
+SF:002\x20Sep\x202017\x2016:32:29\x20GMT\r\nContent-Length:\x2094\r\n<HTML
+SF:><HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x
+SF:20Request</H1>\n</BODY></HTML>\n")%r(TLSSessionReq,DD,"HTTP/1\.1\x20400
+SF:\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nConnection:\x20clos
+SF:e\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:29\x20GMT\r\nContent-L
+SF:ength:\x2094\r\n<HTML><HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</H
+SF:EAD><BODY>\n<H1>Bad\x20Request</H1>\n</BODY></HTML>\n")%r(Kerberos,DD,"
+SF:HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nCon
+SF:nection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:29\x20
+SF:GMT\r\nContent-Length:\x2094\r\n<HTML><HEAD>\n<TITLE>400\x20Bad\x20Requ
+SF:est</TITLE>\n</HEAD><BODY>\n<H1>Bad\x20Request</H1>\n</BODY></HTML>\n");
+MAC Address: 00:0E:53:30:82:D8 (AV Tech)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.10
+TCP/IP fingerprint:
+OS:SCAN(V=7.40%E=4%D=9/2%OT=80%CT=1%CU=37308%PV=Y%DS=1%DC=D%G=Y%M=000E53%TM
+OS:=59AB23A8%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%
+OS:TS=7)OPS(O1=M5B4ST11NW5%O2=M5B4ST11NW5%O3=M5B4NNT11NW5%O4=M5B4ST11NW5%O5
+OS:=M5B4ST11NW5%O6=M5B4ST11)WIN(W1=3890%W2=3890%W3=3890%W4=3890%W5=3890%W6=
+OS:3890)ECN(R=Y%DF=Y%T=40%W=3908%O=M5B4NNSNW5%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Uptime guess: 0.229 days (since Sat Sep  2 09:03:59 2017)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; Device: webcam; CPE: cpe:/h:avtech:avn801, cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.26 ms AVTechDVR.lan (192.168.10.9)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep  2 14:33:28 2017 -- 1 IP address (1 host up) scanned in 104.12 seconds

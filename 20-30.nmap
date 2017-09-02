@@ -1,0 +1,504 @@
+# Nmap 7.40 scan initiated Sat Sep  2 11:54:09 2017 as: nmap -vv -oA 20-30 -sS -T4 192.168.20,30.2-11
+Increasing send delay for 192.168.30.8 from 0 to 5 due to 11 out of 16 dropped probes since last increase.
+Increasing send delay for 192.168.30.10 from 0 to 5 due to 11 out of 16 dropped probes since last increase.
+Increasing send delay for 192.168.20.9 from 0 to 5 due to 11 out of 16 dropped probes since last increase.
+Increasing send delay for 192.168.20.2 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.30.4 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.20.10 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.20.7 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.30.9 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.20.6 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.30.2 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.20.11 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.30.3 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.30.5 from 0 to 5 due to 11 out of 16 dropped probes since last increase.
+Increasing send delay for 192.168.20.5 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.30.7 from 0 to 5 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 192.168.30.8 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.20.2 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.30.4 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.20.3 from 0 to 5 due to 11 out of 26 dropped probes since last increase.
+Increasing send delay for 192.168.20.10 from 5 to 10 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 192.168.30.9 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.20.7 from 5 to 10 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 192.168.30.2 from 5 to 10 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 192.168.20.6 from 5 to 10 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 192.168.30.3 from 5 to 10 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 192.168.20.11 from 5 to 10 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 192.168.30.10 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.20.9 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.20.5 from 5 to 10 due to 15 out of 37 dropped probes since last increase.
+Increasing send delay for 192.168.30.5 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of 42016243 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 42016243 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 42002232 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 42002232 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 41932957 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 41932957 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002623 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002623 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001912 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001912 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000147 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000147 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000248 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000248 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000611 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000611 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001350 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001350 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000697 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000697 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000550 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000550 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001691 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001691 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000455 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000455 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001266 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001266 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21003476 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21003476 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002439 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002439 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001383 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001383 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001135 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001135 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000007 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000007 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002306 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002306 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000316 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000316 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002327 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002327 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001115 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001115 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001893 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001893 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000208 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000208 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001263 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001263 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000476 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000476 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999933 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999933 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999885 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999885 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999802 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999802 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999956 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999956 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999857 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999857 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999773 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999773 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000038 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000038 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000107 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000107 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999939 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999939 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999937 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999937 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000015 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000015 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001236 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001236 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001300 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001300 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001959 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001959 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000403 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000403 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000323 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000323 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000278 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000278 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000810 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000810 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000749 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000749 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000726 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000726 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002105 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002105 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000857 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000857 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001922 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001922 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000084 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000084 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001506 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001506 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001132 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001132 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000062 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000062 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000260 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000260 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001530 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001530 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000467 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000467 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001206 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001206 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21003449 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21003449 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001428 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001428 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000960 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000960 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000804 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000804 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999941 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999941 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002139 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002139 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001810 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001810 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000653 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000653 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001605 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001605 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001808 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001808 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999884 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999884 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999869 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999869 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000600 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000600 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21003153 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21003153 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000431 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000431 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001972 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001972 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001789 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001789 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001913 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001913 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000899 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000899 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999942 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999942 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000493 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000493 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002416 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002416 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999971 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999971 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000923 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000923 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001819 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001819 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001723 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001723 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001757 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001757 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002206 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002206 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21004274 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21004274 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001656 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001656 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002677 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002677 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001969 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001969 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001014 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001014 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001791 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001791 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001525 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21001525 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000620 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21000620 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999488 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 20999488 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002004 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 21002004 microseconds.  Ignoring time.
+Nmap scan report for 192.168.20.2
+Host is up, received reset ttl 128 (0.00022s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 734s
+Not shown: 988 filtered ports
+Reason: 988 no-responses
+PORT      STATE  SERVICE            REASON
+80/tcp    open   http               syn-ack ttl 128
+443/tcp   open   https              syn-ack ttl 128
+1024/tcp  closed kdm                reset ttl 128
+1032/tcp  closed iad3               reset ttl 128
+1863/tcp  closed msnp               reset ttl 128
+2910/tcp  closed tdaccess           reset ttl 128
+3003/tcp  closed cgms               reset ttl 128
+3914/tcp  closed listcrt-port-2     reset ttl 128
+5679/tcp  closed activesync         reset ttl 128
+6667/tcp  closed irc                reset ttl 128
+6881/tcp  closed bittorrent-tracker reset ttl 128
+10621/tcp closed unknown            reset ttl 128
+
+Nmap scan report for 192.168.20.3
+Host is up, received reset ttl 128 (0.00032s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 640s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 128
+443/tcp open  https   syn-ack ttl 128
+
+Nmap scan report for 192.168.20.4
+Host is up, received reset ttl 128 (0.00055s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 586s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 128
+443/tcp open  https   syn-ack ttl 128
+
+Nmap scan report for 192.168.20.5
+Host is up, received reset ttl 128 (0.00030s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 640s
+Not shown: 995 filtered ports
+Reason: 995 no-responses
+PORT      STATE  SERVICE       REASON
+80/tcp    open   http          syn-ack ttl 128
+443/tcp   open   https         syn-ack ttl 128
+3003/tcp  closed cgms          reset ttl 128
+8100/tcp  closed xprint-server reset ttl 128
+10621/tcp closed unknown       reset ttl 128
+
+Nmap scan report for DCS-2132LB1.lan (192.168.20.6)
+Host is up, received reset ttl 128 (0.00022s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 732s
+Not shown: 984 filtered ports
+Reason: 984 no-responses
+PORT      STATE  SERVICE        REASON
+80/tcp    open   http           syn-ack ttl 128
+443/tcp   open   https          syn-ack ttl 128
+1079/tcp  closed asprovatalk    reset ttl 128
+1259/tcp  closed opennl-voice   reset ttl 128
+1801/tcp  closed msmq           reset ttl 128
+1863/tcp  closed msnp           reset ttl 128
+3003/tcp  closed cgms           reset ttl 128
+3880/tcp  closed igrs           reset ttl 128
+3914/tcp  closed listcrt-port-2 reset ttl 128
+5679/tcp  closed activesync     reset ttl 128
+6667/tcp  closed irc            reset ttl 128
+6699/tcp  closed napster        reset ttl 128
+9003/tcp  closed unknown        reset ttl 128
+9040/tcp  closed tor-trans      reset ttl 128
+49155/tcp closed unknown        reset ttl 128
+55056/tcp closed unknown        reset ttl 128
+
+Nmap scan report for Control4.lan (192.168.20.7)
+Host is up, received reset ttl 128 (0.00025s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 734s
+Not shown: 993 filtered ports
+Reason: 993 no-responses
+PORT     STATE  SERVICE       REASON
+80/tcp   open   http          syn-ack ttl 128
+146/tcp  closed iso-tp0       reset ttl 128
+443/tcp  open   https         syn-ack ttl 128
+1024/tcp closed kdm           reset ttl 128
+1032/tcp closed iad3          reset ttl 128
+1801/tcp closed msmq          reset ttl 128
+8100/tcp closed xprint-server reset ttl 128
+
+Nmap scan report for 192.168.20.8
+Host is up, received reset ttl 128 (0.00056s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 586s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 128
+443/tcp open  https   syn-ack ttl 128
+
+Nmap scan report for 192.168.20.9
+Host is up, received syn-ack ttl 128 (0.036s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 3367s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 128
+443/tcp open  https   syn-ack ttl 128
+
+Nmap scan report for 192.168.20.10
+Host is up, received reset ttl 128 (0.00031s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 732s
+Not shown: 984 filtered ports
+Reason: 984 no-responses
+PORT      STATE  SERVICE            REASON
+80/tcp    open   http               syn-ack ttl 128
+146/tcp   closed iso-tp0            reset ttl 128
+443/tcp   open   https              syn-ack ttl 128
+1024/tcp  closed kdm                reset ttl 128
+1032/tcp  closed iad3               reset ttl 128
+1079/tcp  closed asprovatalk        reset ttl 128
+1084/tcp  closed ansoft-lm-2        reset ttl 128
+1259/tcp  closed opennl-voice       reset ttl 128
+1801/tcp  closed msmq               reset ttl 128
+1863/tcp  closed msnp               reset ttl 128
+2920/tcp  closed roboeda            reset ttl 128
+3880/tcp  closed igrs               reset ttl 128
+3914/tcp  closed listcrt-port-2     reset ttl 128
+5950/tcp  closed unknown            reset ttl 128
+6881/tcp  closed bittorrent-tracker reset ttl 128
+49155/tcp closed unknown            reset ttl 128
+
+Nmap scan report for 192.168.20.11
+Host is up, received reset ttl 128 (0.00018s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 732s
+Not shown: 990 filtered ports
+Reason: 990 no-responses
+PORT      STATE  SERVICE        REASON
+80/tcp    open   http           syn-ack ttl 128
+443/tcp   open   https          syn-ack ttl 128
+1063/tcp  closed kyoceranetdev  reset ttl 128
+1084/tcp  closed ansoft-lm-2    reset ttl 128
+1801/tcp  closed msmq           reset ttl 128
+2910/tcp  closed tdaccess       reset ttl 128
+3914/tcp  closed listcrt-port-2 reset ttl 128
+8100/tcp  closed xprint-server  reset ttl 128
+9003/tcp  closed unknown        reset ttl 128
+49155/tcp closed unknown        reset ttl 128
+
+Nmap scan report for 192.168.30.2
+Host is up, received reset ttl 128 (0.00020s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 735s
+Not shown: 988 filtered ports
+Reason: 988 no-responses
+PORT     STATE  SERVICE       REASON
+80/tcp   open   http          syn-ack ttl 128
+443/tcp  open   https         syn-ack ttl 128
+1024/tcp closed kdm           reset ttl 128
+1032/tcp closed iad3          reset ttl 128
+1259/tcp closed opennl-voice  reset ttl 128
+1556/tcp closed veritas_pbx   reset ttl 128
+1863/tcp closed msnp          reset ttl 128
+2910/tcp closed tdaccess      reset ttl 128
+2920/tcp closed roboeda       reset ttl 128
+3003/tcp closed cgms          reset ttl 128
+5950/tcp closed unknown       reset ttl 128
+8100/tcp closed xprint-server reset ttl 128
+
+Nmap scan report for D-LinkNAS.lan (192.168.30.3)
+Host is up, received reset ttl 128 (0.00021s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 733s
+Not shown: 991 filtered ports
+Reason: 991 no-responses
+PORT      STATE  SERVICE     REASON
+80/tcp    open   http        syn-ack ttl 128
+146/tcp   closed iso-tp0     reset ttl 128
+443/tcp   open   https       syn-ack ttl 128
+691/tcp   closed resvc       reset ttl 128
+1024/tcp  closed kdm         reset ttl 128
+1084/tcp  closed ansoft-lm-2 reset ttl 128
+2910/tcp  closed tdaccess    reset ttl 128
+18101/tcp closed unknown     reset ttl 128
+55056/tcp closed unknown     reset ttl 128
+
+Nmap scan report for 192.168.30.4
+Host is up, received reset ttl 128 (0.00020s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 733s
+Not shown: 992 filtered ports
+Reason: 992 no-responses
+PORT     STATE  SERVICE     REASON
+80/tcp   open   http        syn-ack ttl 128
+146/tcp  closed iso-tp0     reset ttl 128
+443/tcp  open   https       syn-ack ttl 128
+1556/tcp closed veritas_pbx reset ttl 128
+1801/tcp closed msmq        reset ttl 128
+2910/tcp closed tdaccess    reset ttl 128
+3003/tcp closed cgms        reset ttl 128
+6667/tcp closed irc         reset ttl 128
+
+Nmap scan report for TCP-GreenWave.lan (192.168.30.5)
+Host is up, received echo-reply ttl 128 (0.19s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 3730s
+Not shown: 995 filtered ports
+Reason: 995 no-responses
+PORT     STATE  SERVICE        REASON
+80/tcp   open   http           syn-ack ttl 128
+111/tcp  closed rpcbind        reset ttl 128
+443/tcp  open   https          syn-ack ttl 128
+993/tcp  closed imaps          reset ttl 128
+8888/tcp open   sun-answerbook syn-ack ttl 128
+
+Nmap scan report for 192.168.30.6
+Host is up, received reset ttl 128 (0.00065s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 585s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 128
+443/tcp open  https   syn-ack ttl 128
+
+Nmap scan report for 192.168.30.7
+Host is up, received reset ttl 128 (0.00023s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 727s
+Not shown: 993 filtered ports
+Reason: 993 no-responses
+PORT      STATE  SERVICE       REASON
+80/tcp    open   http          syn-ack ttl 128
+443/tcp   open   https         syn-ack ttl 128
+1556/tcp  closed veritas_pbx   reset ttl 128
+3003/tcp  closed cgms          reset ttl 128
+5950/tcp  closed unknown       reset ttl 128
+8100/tcp  closed xprint-server reset ttl 128
+10621/tcp closed unknown       reset ttl 128
+
+Nmap scan report for 192.168.30.8
+Host is up, received syn-ack ttl 128 (0.040s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 2437s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 128
+443/tcp open  https   syn-ack ttl 128
+
+Nmap scan report for 192.168.30.9
+Host is up, received reset ttl 128 (0.00020s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 730s
+Not shown: 984 filtered ports
+Reason: 984 no-responses
+PORT      STATE  SERVICE            REASON
+80/tcp    open   http               syn-ack ttl 128
+146/tcp   closed iso-tp0            reset ttl 128
+443/tcp   open   https              syn-ack ttl 128
+1024/tcp  closed kdm                reset ttl 128
+1032/tcp  closed iad3               reset ttl 128
+1084/tcp  closed ansoft-lm-2        reset ttl 128
+1556/tcp  closed veritas_pbx        reset ttl 128
+2910/tcp  closed tdaccess           reset ttl 128
+2920/tcp  closed roboeda            reset ttl 128
+3914/tcp  closed listcrt-port-2     reset ttl 128
+5679/tcp  closed activesync         reset ttl 128
+6667/tcp  closed irc                reset ttl 128
+6881/tcp  closed bittorrent-tracker reset ttl 128
+8100/tcp  closed xprint-server      reset ttl 128
+10621/tcp closed unknown            reset ttl 128
+49155/tcp closed unknown            reset ttl 128
+
+Nmap scan report for 192.168.30.10
+Host is up, received syn-ack ttl 128 (0.036s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 3726s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 128
+443/tcp open  https   syn-ack ttl 128
+
+Nmap scan report for 192.168.30.11
+Host is up, received reset ttl 128 (0.00057s latency).
+Scanned at 2017-09-02 11:54:09 PDT for 586s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 128
+443/tcp open  https   syn-ack ttl 128
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Sep  2 12:56:19 2017 -- 20 IP addresses (20 hosts up) scanned in 3729.90 seconds

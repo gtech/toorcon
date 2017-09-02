@@ -1,0 +1,103 @@
+# Nmap 7.40 scan initiated Sat Sep  2 14:30:58 2017 as: nmap -vv -T4 -sS -oA 10iot 192.168.10.2-11
+Nmap scan report for 192.168.10.2 [host down, received no-response]
+Nmap scan report for 192.168.10.4 [host down, received no-response]
+Nmap scan report for 192.168.10.3
+Host is up, received arp-response (0.00044s latency).
+Scanned at 2017-09-02 14:30:58 PDT for 1s
+Not shown: 999 closed ports
+Reason: 999 resets
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 64
+MAC Address: 00:22:75:EC:2F:01 (Belkin International)
+
+Nmap scan report for QNAP-TS-453A.lan (192.168.10.5)
+Host is up, received arp-response (0.00090s latency).
+Scanned at 2017-09-02 14:30:58 PDT for 1s
+Not shown: 985 closed ports
+Reason: 985 resets
+PORT      STATE SERVICE            REASON
+21/tcp    open  ftp                syn-ack ttl 64
+22/tcp    open  ssh                syn-ack ttl 64
+80/tcp    open  http               syn-ack ttl 64
+139/tcp   open  netbios-ssn        syn-ack ttl 64
+443/tcp   open  https              syn-ack ttl 64
+445/tcp   open  microsoft-ds       syn-ack ttl 64
+631/tcp   open  ipp                syn-ack ttl 64
+873/tcp   open  rsync              syn-ack ttl 64
+3689/tcp  open  rendezvous         syn-ack ttl 64
+6881/tcp  open  bittorrent-tracker syn-ack ttl 64
+8080/tcp  open  http-proxy         syn-ack ttl 64
+8081/tcp  open  blackice-icecap    syn-ack ttl 64
+8200/tcp  open  trivnet1           syn-ack ttl 64
+49152/tcp open  unknown            syn-ack ttl 64
+49153/tcp open  unknown            syn-ack ttl 64
+MAC Address: 24:5E:BE:10:CA:01 (Qnap Systems)
+
+Nmap scan report for DCS-930LB1.lan (192.168.10.6)
+Host is up, received arp-response (0.0012s latency).
+Scanned at 2017-09-02 14:30:58 PDT for 1s
+Not shown: 999 closed ports
+Reason: 999 resets
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 64
+MAC Address: B0:C5:54:10:9D:99 (D-Link International)
+
+Nmap scan report for NuuoNVRmini.lan (192.168.10.7)
+Host is up, received arp-response (0.00044s latency).
+Scanned at 2017-09-02 14:30:58 PDT for 1s
+Not shown: 996 closed ports
+Reason: 996 resets
+PORT    STATE SERVICE REASON
+21/tcp  open  ftp     syn-ack ttl 64
+22/tcp  open  ssh     syn-ack ttl 64
+80/tcp  open  http    syn-ack ttl 64
+443/tcp open  https   syn-ack ttl 64
+MAC Address: 1C:1B:0D:15:5F:BC (Giga-byte Technology)
+
+Nmap scan report for 192.168.10.8
+Host is up, received arp-response (0.00040s latency).
+Scanned at 2017-09-02 14:30:58 PDT for 1s
+Not shown: 993 closed ports
+Reason: 993 resets
+PORT     STATE SERVICE        REASON
+80/tcp   open  http           syn-ack ttl 64
+139/tcp  open  netbios-ssn    syn-ack ttl 64
+443/tcp  open  https          syn-ack ttl 64
+445/tcp  open  microsoft-ds   syn-ack ttl 64
+515/tcp  open  printer        syn-ack ttl 64
+3306/tcp open  mysql          syn-ack ttl 64
+4242/tcp open  vrml-multi-use syn-ack ttl 64
+MAC Address: D8:EB:97:CF:01:90 (Trendnet)
+
+Nmap scan report for AVTechDVR.lan (192.168.10.9)
+Host is up, received arp-response (0.0012s latency).
+Scanned at 2017-09-02 14:30:58 PDT for 1s
+Not shown: 998 closed ports
+Reason: 998 resets
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 64
+554/tcp open  rtsp    syn-ack ttl 64
+MAC Address: 00:0E:53:30:82:D8 (AV Tech)
+
+Nmap scan report for ctf.lan (192.168.10.10)
+Host is up, received arp-response (0.00090s latency).
+Scanned at 2017-09-02 14:30:58 PDT for 1s
+Not shown: 998 closed ports
+Reason: 998 resets
+PORT     STATE SERVICE        REASON
+111/tcp  open  rpcbind        syn-ack ttl 64
+4000/tcp open  remoteanything syn-ack ttl 64
+MAC Address: A8:1E:84:09:CD:C7 (Quanta Computer)
+
+Nmap scan report for csrf.lan (192.168.10.11)
+Host is up, received arp-response (0.00038s latency).
+Scanned at 2017-09-02 14:30:58 PDT for 1s
+Not shown: 998 closed ports
+Reason: 998 resets
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 64
+111/tcp open  rpcbind syn-ack ttl 64
+MAC Address: A8:1E:84:09:CE:CC (Quanta Computer)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Sep  2 14:30:59 2017 -- 10 IP addresses (8 hosts up) scanned in 1.29 seconds

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.40 scan initiated Sat Sep  2 14:31:45 2017 as: nmap -vv -T4 -A -p- -oA 10.9_iot 192.168.10.9 -->
+<nmaprun scanner="nmap" args="nmap -vv -T4 -A -p- -oA 10.9_iot 192.168.10.9" start="1504387905" startstr="Sat Sep  2 14:31:45 2017" version="7.40" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1504387906"/>
+<taskend task="NSE" time="1504387906"/>
+<taskbegin task="NSE" time="1504387906"/>
+<taskend task="NSE" time="1504387906"/>
+<taskbegin task="ARP Ping Scan" time="1504387906"/>
+<taskend task="ARP Ping Scan" time="1504387906" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1504387906"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1504387906"/>
+<taskbegin task="SYN Stealth Scan" time="1504387906"/>
+<taskend task="SYN Stealth Scan" time="1504387911" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1504387911"/>
+<taskend task="Service scan" time="1504387999" extrainfo="3 services on 1 host"/>
+<taskbegin task="NSE" time="1504388000"/>
+<taskend task="NSE" time="1504388007"/>
+<taskbegin task="NSE" time="1504388007"/>
+<taskend task="NSE" time="1504388008"/>
+<host starttime="1504387906" endtime="1504388008"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.10.9" addrtype="ipv4"/>
+<address addr="00:0E:53:30:82:D8" addrtype="mac" vendor="AV Tech"/>
+<hostnames>
+<hostname name="AVTechDVR.lan" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="resets" count="65532"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Avtech AVN801 network camera" version="1.0" extrainfo="UPnP 1.0" ostype="Linux" devicetype="webcam" method="probed" conf="10"><cpe>cpe:/h:avtech:avn801</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="Linux/2.x UPnP/1.0 Avtech/1.0"><elem>Linux/2.x UPnP/1.0 Avtech/1.0</elem>
+</script><script id="http-title" output="::: Login :::"><elem key="title">::: Login :::</elem>
+</script></port>
+<port protocol="tcp" portid="554"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Avtech AVN801 network camera" version="1.0" extrainfo="UPnP 1.0" ostype="Linux" devicetype="webcam" method="probed" conf="10"><cpe>cpe:/h:avtech:avn801</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="Linux/2.x UPnP/1.0 Avtech/1.0"><elem>Linux/2.x UPnP/1.0 Avtech/1.0</elem>
+</script><script id="http-title" output="::: Login :::"><elem key="title">::: Login :::</elem>
+</script><script id="rtsp-methods" output="DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, SET_PARAMETER, GET_PARAMETER"><elem>DESCRIBE</elem>
+<elem>SETUP</elem>
+<elem>TEARDOWN</elem>
+<elem>PLAY</elem>
+<elem>PAUSE</elem>
+<elem>SET_PARAMETER</elem>
+<elem>GET_PARAMETER</elem>
+</script></port>
+<port protocol="tcp" portid="988"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="unknown" servicefp="SF-Port988-TCP:V=7.40%I=7%D=9/2%Time=59AB234D%P=x86_64-pc-linux-gnu%r(GenericLines,DD,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:07\x20GMT\r\nContent-Length:\x2094\r\n&lt;HTML&gt;&lt;HEAD&gt;\n&lt;TITLE&gt;400\x20Bad\x20Request&lt;/TITLE&gt;\n&lt;/HEAD&gt;&lt;BODY&gt;\n&lt;H1&gt;Bad\x20Request&lt;/H1&gt;\n&lt;/BODY&gt;&lt;/HTML&gt;\n&quot;)%r(HTTPOptions,EC,&quot;HTTP/1\.1\x20501\x20Not\x20Implemented\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:14\x20GMT\r\nContent-Length:\x20102\r\n\r\n&lt;HTML&gt;&lt;HEAD&gt;\n&lt;TITLE&gt;501\x20Not\x20Implemented&lt;/TITLE&gt;\n&lt;/HEAD&gt;&lt;BODY&gt;\n&lt;H1&gt;Not\x20Implemented&lt;/H1&gt;\n&lt;/BODY&gt;&lt;/HTML&gt;\n&quot;)%r(RTSPRequest,DF,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:14\x20GMT\r\nContent-Length:\x2094\r\n\r\n&lt;HTML&gt;&lt;HEAD&gt;\n&lt;TITLE&gt;400\x20Bad\x20Request&lt;/TITLE&gt;\n&lt;/HEAD&gt;&lt;BODY&gt;\n&lt;H1&gt;Bad\x20Request&lt;/H1&gt;\n&lt;/BODY&gt;&lt;/HTML&gt;\n&quot;)%r(Help,DD,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:29\x20GMT\r\nContent-Length:\x2094\r\n&lt;HTML&gt;&lt;HEAD&gt;\n&lt;TITLE&gt;400\x20Bad\x20Request&lt;/TITLE&gt;\n&lt;/HEAD&gt;&lt;BODY&gt;\n&lt;H1&gt;Bad\x20Request&lt;/H1&gt;\n&lt;/BODY&gt;&lt;/HTML&gt;\n&quot;)%r(SSLSessionReq,DD,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:29\x20GMT\r\nContent-Length:\x2094\r\n&lt;HTML&gt;&lt;HEAD&gt;\n&lt;TITLE&gt;400\x20Bad\x20Request&lt;/TITLE&gt;\n&lt;/HEAD&gt;&lt;BODY&gt;\n&lt;H1&gt;Bad\x20Request&lt;/H1&gt;\n&lt;/BODY&gt;&lt;/HTML&gt;\n&quot;)%r(TLSSessionReq,DD,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:29\x20GMT\r\nContent-Length:\x2094\r\n&lt;HTML&gt;&lt;HEAD&gt;\n&lt;TITLE&gt;400\x20Bad\x20Request&lt;/TITLE&gt;\n&lt;/HEAD&gt;&lt;BODY&gt;\n&lt;H1&gt;Bad\x20Request&lt;/H1&gt;\n&lt;/BODY&gt;&lt;/HTML&gt;\n&quot;)%r(Kerberos,DD,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nDate:\x20Sat,\x2002\x20Sep\x202017\x2016:32:29\x20GMT\r\nContent-Length:\x2094\r\n&lt;HTML&gt;&lt;HEAD&gt;\n&lt;TITLE&gt;400\x20Bad\x20Request&lt;/TITLE&gt;\n&lt;/HEAD&gt;&lt;BODY&gt;\n&lt;H1&gt;Bad\x20Request&lt;/H1&gt;\n&lt;/BODY&gt;&lt;/HTML&gt;\n&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  GenericLines: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/html&#xa;    Connection: close&#xa;    Date: Sat, 02 Sep 2017 16:32:07 GMT&#xa;    Content-Length: 94&#xa;    &lt;HTML&gt;&lt;HEAD&gt;&#xa;    &lt;TITLE&gt;400 Bad Request&lt;/TITLE&gt;&#xa;    &lt;/HEAD&gt;&lt;BODY&gt;&#xa;    &lt;H1&gt;Bad Request&lt;/H1&gt;&#xa;    &lt;/BODY&gt;&lt;/HTML&gt;&#xa;  HTTPOptions: &#xa;    HTTP/1.1 501 Not Implemented&#xa;    Content-Type: text/html&#xa;    Connection: close&#xa;    Date: Sat, 02 Sep 2017 16:32:14 GMT&#xa;    Content-Length: 102&#xa;    &lt;HTML&gt;&lt;HEAD&gt;&#xa;    &lt;TITLE&gt;501 Not Implemented&lt;/TITLE&gt;&#xa;    &lt;/HEAD&gt;&lt;BODY&gt;&#xa;    &lt;H1&gt;Not Implemented&lt;/H1&gt;&#xa;    &lt;/BODY&gt;&lt;/HTML&gt;&#xa;  Help, Kerberos, SSLSessionReq, TLSSessionReq: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/html&#xa;    Connection: close&#xa;    Date: Sat, 02 Sep 2017 16:32:29 GMT&#xa;    Content-Length: 94&#xa;    &lt;HTML&gt;&lt;HEAD&gt;&#xa;    &lt;TITLE&gt;400 Bad Request&lt;/TITLE&gt;&#xa;    &lt;/HEAD&gt;&lt;BODY&gt;&#xa;    &lt;H1&gt;Bad Request&lt;/H1&gt;&#xa;    &lt;/BODY&gt;&lt;/HTML&gt;&#xa;  RTSPRequest: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/html&#xa;    Connection: close&#xa;    Date: Sat, 02 Sep 2017 16:32:14 GMT&#xa;    Content-Length: 94&#xa;    &lt;HTML&gt;&lt;HEAD&gt;&#xa;    &lt;TITLE&gt;400 Bad Request&lt;/TITLE&gt;&#xa;    &lt;/HEAD&gt;&lt;BODY&gt;&#xa;    &lt;H1&gt;Bad Request&lt;/H1&gt;&#xa;    &lt;/BODY&gt;&lt;/HTML&gt;"><elem key="GenericLines">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/html&#xa;    Connection: close&#xa;    Date: Sat, 02 Sep 2017 16:32:07 GMT&#xa;    Content-Length: 94&#xa;    &lt;HTML&gt;&lt;HEAD&gt;&#xa;    &lt;TITLE&gt;400 Bad Request&lt;/TITLE&gt;&#xa;    &lt;/HEAD&gt;&lt;BODY&gt;&#xa;    &lt;H1&gt;Bad Request&lt;/H1&gt;&#xa;    &lt;/BODY&gt;&lt;/HTML&gt;</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.1 501 Not Implemented&#xa;    Content-Type: text/html&#xa;    Connection: close&#xa;    Date: Sat, 02 Sep 2017 16:32:14 GMT&#xa;    Content-Length: 102&#xa;    &lt;HTML&gt;&lt;HEAD&gt;&#xa;    &lt;TITLE&gt;501 Not Implemented&lt;/TITLE&gt;&#xa;    &lt;/HEAD&gt;&lt;BODY&gt;&#xa;    &lt;H1&gt;Not Implemented&lt;/H1&gt;&#xa;    &lt;/BODY&gt;&lt;/HTML&gt;</elem>
+<elem key="Help, Kerberos, SSLSessionReq, TLSSessionReq">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/html&#xa;    Connection: close&#xa;    Date: Sat, 02 Sep 2017 16:32:29 GMT&#xa;    Content-Length: 94&#xa;    &lt;HTML&gt;&lt;HEAD&gt;&#xa;    &lt;TITLE&gt;400 Bad Request&lt;/TITLE&gt;&#xa;    &lt;/HEAD&gt;&lt;BODY&gt;&#xa;    &lt;H1&gt;Bad Request&lt;/H1&gt;&#xa;    &lt;/BODY&gt;&lt;/HTML&gt;</elem>
+<elem key="RTSPRequest">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/html&#xa;    Connection: close&#xa;    Date: Sat, 02 Sep 2017 16:32:14 GMT&#xa;    Content-Length: 94&#xa;    &lt;HTML&gt;&lt;HEAD&gt;&#xa;    &lt;TITLE&gt;400 Bad Request&lt;/TITLE&gt;&#xa;    &lt;/HEAD&gt;&lt;BODY&gt;&#xa;    &lt;H1&gt;Bad Request&lt;/H1&gt;&#xa;    &lt;/BODY&gt;&lt;/HTML&gt;</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="37308"/>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="100" line="53646">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.40%E=4%D=9/2%OT=80%CT=1%CU=37308%PV=Y%DS=1%DC=D%G=Y%M=000E53%TM&#xa;OS:=59AB23A8%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%&#xa;OS:TS=7)OPS(O1=M5B4ST11NW5%O2=M5B4ST11NW5%O3=M5B4NNT11NW5%O4=M5B4ST11NW5%O5&#xa;OS:=M5B4ST11NW5%O6=M5B4ST11)WIN(W1=3890%W2=3890%W3=3890%W4=3890%W5=3890%W6=&#xa;OS:3890)ECN(R=Y%DF=Y%T=40%W=3908%O=M5B4NNSNW5%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%&#xa;OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0&#xa;OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S&#xa;OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R&#xa;OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N&#xa;OS:%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="19769" lastboot="Sat Sep  2 09:03:59 2017"/>
+<distance value="1"/>
+<tcpsequence index="260" difficulty="Good luck!" values="F424542A,C14DDF5B,4EC0FE4E,1F85BBE9,6680ADC9,542F6A93"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="100HZ" values="1E2701,1E270B,1E2715,1E271F,1E2729,1E2733"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.10.9" rtt="1.26" host="AVTechDVR.lan"/>
+</trace>
+<times srtt="1261" rttvar="276" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1504388008"/>
+<taskend task="NSE" time="1504388008"/>
+<taskbegin task="NSE" time="1504388008"/>
+<taskend task="NSE" time="1504388008"/>
+<runstats><finished time="1504388008" timestr="Sat Sep  2 14:33:28 2017" elapsed="104.12" summary="Nmap done at Sat Sep  2 14:33:28 2017; 1 IP address (1 host up) scanned in 104.12 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

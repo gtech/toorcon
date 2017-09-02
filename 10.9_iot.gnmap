@@ -1,0 +1,5 @@
+# Nmap 7.40 scan initiated Sat Sep  2 14:31:45 2017 as: nmap -vv -T4 -A -p- -oA 10.9_iot 192.168.10.9
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.10.9 (AVTechDVR.lan)	Status: Up
+Host: 192.168.10.9 (AVTechDVR.lan)	Ports: 80/open/tcp//http//Avtech AVN801 network camera 1.0 (UPnP 1.0)/, 554/open/tcp//http//Avtech AVN801 network camera 1.0 (UPnP 1.0)/, 988/open/tcp//unknown///	Ignored State: closed (65532)	OS: Linux 2.6.32 - 3.10	Seq Index: 260	IP ID Seq: All zeros
+# Nmap done at Sat Sep  2 14:33:28 2017 -- 1 IP address (1 host up) scanned in 104.12 seconds
